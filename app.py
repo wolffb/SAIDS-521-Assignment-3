@@ -36,6 +36,7 @@ COLOR_MAP = {"Male": "#636EFA", "Female": "#EF553B"}
 # Dash app
 # ---------------------------------------------------------------------------
 app = Dash(__name__)
+server = app.server
 app.title = "Mall Customer Segmentation Dashboard"
 
 app.layout = html.Div(
